@@ -1,5 +1,10 @@
 # A Heroes Journey
-> Outline a brief description of your project.
+52685 Working with Data and Code
+Assessment 2 Final Project
+Explainer Video 
+Personal Reflection
+
+The project I have undertaken for A2 is creating a video game on Microsoft MakeCode Arcade.
 > Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
