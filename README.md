@@ -55,7 +55,31 @@ Proceed to describe how to install / setup one's local environment / get started
 How does one go about using it?
 Provide various use cases and code examples here.
 
-`write-your-code-here`
+`@namespace
+class SpriteKind:
+    NPC = SpriteKind.create()
+    Warrior = SpriteKind.create()
+  projectile2: Sprite = None
+mySprite: Sprite = None
+Wizard: Sprite = None
+level = 0
+game.splash("A Heroes Journey")
+level = 1
+Wizard = sprites.create(assets.image("""
+    Wizard
+"""), SpriteKind.NPC)
+game.show_long_text("Good Morning, Sorry to disturb you.", DialogLayout.BOTTOM)
+game.show_long_text("My name is Morley and I am a what you'd call a wizard of sorts.",
+    DialogLayout.BOTTOM)
+game.show_long_text("Lucky I found you, I am in need of your urgent assistance.",
+    DialogLayout.BOTTOM)
+game.show_long_text("There is are monsters terrorising the kingdom and I need you to slay them. ",
+    DialogLayout.BOTTOM)
+game.show_long_text("You need to find 6 artefacts scattered across the forest then find the blue portal. ",
+    DialogLayout.BOTTOM)
+game.show_long_text("Good Luck Hero, We are counting on you!!",
+    DialogLayout.BOTTOM)
+startLevel()`
 
 ## Project Status
 Project is: _in progress_
