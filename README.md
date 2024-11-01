@@ -63,8 +63,7 @@ Proceed to describe how to install / setup one's local environment / get started
 
 
 ## Usage
-When the game first starts the player is introduced to the first character then are placed in the first level.
-
+When the game first starts the player is introduced to the first character then are placed in the first level. 
 Players move the character by pressing (up, down, left, right) or (W,A,S,D) 
 
 _Code Example (Movement)_ 
