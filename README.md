@@ -54,6 +54,9 @@ Proceed to describe how to install / setup one's local environment / get started
 ## Usage
 How does one go about using it?
 Provide various use cases and code examples here.
+When the game first starts the player is introduced to the first character then are placed in the first level.
+
+Players move the character by pressing (up, down, left, right) or (W,A,S,D) 
 
 Player Movement
 
