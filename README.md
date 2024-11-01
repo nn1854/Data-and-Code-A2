@@ -58,13 +58,29 @@ When the game first starts the player is introduced to the first character then 
 
 Players move the character by pressing (up, down, left, right) or (W,A,S,D) 
 
-_movement code example_ 
+_Code Example (Movement)_ 
 
 `def on_up_pressed():
     animation.run_image_animation(mySprite, assets.animation("""
         Move Up
     """), 200, True)
 controller.up.on_event(ControllerButtonEvent.PRESSED, on_up_pressed)`
+
+When players navigate the maze there come across different objects (chests, characters). When the player comes across these objects a brief message will appear and the score will go up by one. 
+
+_Code Example (Overlapping)_ 
+
+`def on_overlap_tile5(sprite6, location6):
+    info.change_score_by(1)
+    game.show_long_text("You have found a \"Ruby Ring\"", DialogLayout.BOTTOM)
+    tiles.set_tile_at(location6, assets.tile("""
+        Open Red
+    """))
+scene.on_overlap_tile(SpriteKind.player,
+    assets.tile("""
+        Red Chest
+    """),
+    on_overlap_tile5)`
 
 ## Project Status
 Project is: _in progress_
