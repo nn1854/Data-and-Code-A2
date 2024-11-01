@@ -56,6 +56,7 @@ How does one go about using it?
 Provide various use cases and code examples here.
 
 Player Movement
+
 `def on_up_pressed():
     animation.run_image_animation(mySprite, assets.animation("""
         Move Up
