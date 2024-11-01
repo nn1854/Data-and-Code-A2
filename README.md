@@ -83,6 +83,7 @@ scene.on_overlap_tile(SpriteKind.player,
 When all artefacts are found the player will make their way to a portal to enter the next level of the game. This level the player fires projectiles at enemies before the countdown ends to win
 
 _Code Example (Level 2)_ 
+
 `def on_a_pressed():
     global projectile2
     direction = 0
