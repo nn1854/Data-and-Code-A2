@@ -39,9 +39,13 @@ List the ready features here:
 
 ## Screenshots
 
-Game Title
+# Game Title
 
 <img width="1470" alt="Screenshot 2024-11-01 at 9 52 25 pm" src="https://github.com/user-attachments/assets/fad26c13-78c8-4d07-94f0-d5d529bc5082">
+
+# Errors that occured
+
+
 
 
 
