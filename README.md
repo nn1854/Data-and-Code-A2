@@ -62,7 +62,10 @@ _Code Example (Movement)_
     animation.run_image_animation(mySprite, assets.animation("""
         Move Up
     """), 200, True)
-controller.up.on_event(ControllerButtonEvent.PRESSED, on_up_pressed)`
+controller.up.on_event(ControllerButtonEvent.PRESSED, on_up_pressed)
+def on_button_released():
+    animation.stop_animation(animation.AnimationTypes.ALL, mySprite)
+controller.any_button.on_event(ControllerButtonEvent.RELEASED, on_button_released)`
 
 When players navigate the maze there come across different objects (chests, characters). When the player comes across these objects a brief message will appear and the score will go up by one. 
 
