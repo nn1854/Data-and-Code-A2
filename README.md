@@ -58,8 +58,6 @@ When the game first starts the player is introduced to the first character then 
 
 Players move the character by pressing (up, down, left, right) or (W,A,S,D) 
 
-Player Movement
-
 `def on_up_pressed():
     animation.run_image_animation(mySprite, assets.animation("""
         Move Up
