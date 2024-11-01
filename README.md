@@ -1,11 +1,9 @@
 # A Heroes Journey
 52685 Working with Data and Code
-Assessment 2 Final Project
-Explainer Video 
-Personal Reflection
 
-The project I have undertaken for A2 is creating a video game on Microsoft MakeCode Arcade.
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+Assessment 2 Final Project
+
+> Explainer Video [_here_](https://www.example.com)
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -22,12 +20,9 @@ The project I have undertaken for A2 is creating a video game on Microsoft MakeC
 
 
 ## General Information
-The project I have undertaken for A2 is creating a video game on Microsoft MakeCode Arcade. 
-- Provide general information about your project here.
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+The project I have undertaken for A2 is creating a video game on Microsoft MakeCode Arcade. The aim of my project was to create an engaging game that can be easily picked up by anyone. The reason I chose to code a game is because I do enjoy playing them however, I never thought I'd have the opportunity to ever create one as coding in general never interested me. In doing this subject it allows me to explore what goes behind video game coding and gives me the tools and resources to go and create a simple game. 
 
+The game so far consists of two levels. The first level showcases a maze where the player goes around and finds objects, the second level consists of monsters where the player has to take them down. 
 
 ## Technologies Used
 - Tech 1 - version 1.0
