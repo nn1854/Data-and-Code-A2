@@ -52,8 +52,6 @@ Proceed to describe how to install / setup one's local environment / get started
 
 
 ## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
 When the game first starts the player is introduced to the first character then are placed in the first level.
 
 Players move the character by pressing (up, down, left, right) or (W,A,S,D) 
@@ -81,6 +79,41 @@ scene.on_overlap_tile(SpriteKind.player,
         Red Chest
     """),
     on_overlap_tile5)`
+
+When all artefacts are found the player will make their way to a portal to enter the next level of the game. This level the player fires projectiles at enemies before the countdown ends to win
+
+_Code Example (Level 2)_ 
+`def on_a_pressed():
+    global projectile2
+    direction = 0
+    if direction == 0:
+        projectile2 = sprites.create_projectile_from_sprite(img("""
+            . . . . . . . . . . . . . . . .
+            . . . . . . . . . . . . . . . .
+            . . . . . . . . . . . . . . . .
+            . . . . . . . . . . . . . . . .
+            . . . . 5 5 5 5 5 5 5 5 . . . .
+            . . . . 5 5 5 5 5 5 5 5 . . . .
+            . . . . 5 5 5 5 5 5 5 5 . . . .
+            . . . . 5 5 5 5 5 5 5 5 . . . .
+            . . . . 5 5 5 5 5 5 5 5 . . . .
+            . . . . 5 5 5 5 5 5 5 5 . . . .
+            . . . . 5 5 5 5 5 5 5 5 . . . .
+            . . . . . . . . . . . . . . . .
+            . . . . . . . . . . . . . . . .
+            . . . . . . . . . . . . . . . .
+            . . . . . . . . . . . . . . . .
+            . . . . . . . . . . . . . . . .
+        """),
+            mySprite,
+            50,
+            0)
+controller.A.on_event(ControllerButtonEvent.PRESSED, on_a_pressed)
+def on_countdown_end():
+    game.game_over(False)
+info.on_countdown_end(on_countdown_end)`
+
+
 
 ## Project Status
 Project is: _in progress_
