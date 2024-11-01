@@ -43,7 +43,9 @@ List the ready features here:
 
 
 ## Setup
-[_A Heroes Journey_](https://makecode.com/_8p6FyJT9999g){target="_blank"}
+[_A Heroes Journey_](https://makecode.com/_8p6FyJT9999g) {target="_blank"}
+[Open link in new tab](https://example.com){:target="_blank"}
+
 
 What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
 
