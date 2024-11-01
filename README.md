@@ -58,7 +58,8 @@ When the game first starts the player is introduced to the first character then 
 
 Players move the character by pressing (up, down, left, right) or (W,A,S,D) 
 
-Movement code example 
+_movement code example_ 
+
 `def on_up_pressed():
     animation.run_image_animation(mySprite, assets.animation("""
         Move Up
