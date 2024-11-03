@@ -1,10 +1,10 @@
 # 52685 Working with Data and Code
 
-### Assessment 2 Final Project - Video Game
-
-#### A Heroes Journey
+### Assessment 2 Final Project - A Heroes Journey
 
 > Explainer Video [_here_](https://www.example.com)
+
+> Reflection [_here_](https://www.example.com)
 
 
 ## Table of Contents
@@ -27,17 +27,14 @@ The project I have undertaken for A2 is creating a video game on Microsoft MakeC
 The game so far consists of two levels. The first level showcases a maze where the player goes around and finds objects, the second level consists of monsters where the player has to take them down. 
 
 ## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
-
+- Microsoft MakeCode Arcade
 
 ## Features
-List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
-
+- Retro style arcade game
+- 2 different levels (level 2 in progress)
+- Points system
+- Countdown timer
+- Player controls 
 
 ## Screenshots
 
@@ -72,7 +69,7 @@ Second Way (opening via Microsoft Makecode Arcade)
 4. Navigate to 'Import Files' and import the image
 5. Click 'Go ahead!' and the game should be accessible
 
-First iteration of game [_here_](https://arcade.makecode.com/S87170-49744-88411-08192)
+> First iteration of game [_here_](https://arcade.makecode.com/S87170-49744-88411-08192)
 
 ## Usage
 When the game first starts the player is introduced to the first character then are placed in the first level. 
@@ -102,7 +99,7 @@ scene.on_overlap_tile(SpriteKind.player,
     """),
     on_overlap_tile5)`
 
-When all artefacts are found the player will make their way to a portal to enter the next level of the game. This level the player fires projectiles at enemies before the countdown ends to win
+When all artefacts are found the player will make their way to a portal to enter the next level of the game. This level the player fires projectiles (A button) at enemies before the countdown ends to win.
 
 _Code Example (Projectiles)_ 
 
@@ -144,11 +141,12 @@ Include areas you believe need improvement / could be improved. Also add TODOs f
 
 Room for improvement:
 - Allowing projectiles to fire in different directions depending on where the character is pointing at
-- 
+- Player character continuosuly moving rather than being frozen when moving character
 
 To do:
 - Allowing enemies to be taken down by projectiles
 - Adding music and sound effects to the game
+- Adding an enemy to chase the player increasing difficulty
 
 
 ## Acknowledgements
@@ -158,10 +156,3 @@ Give credit here.
 
 ## Contact
 Created by Nathan Ngo (13777406)
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
