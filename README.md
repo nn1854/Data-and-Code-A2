@@ -40,26 +40,27 @@ The game so far consists of two levels. The first level showcases a maze where t
 
 ### Game Title
 
-<img width="1470" alt="Screenshot 2024-11-01 at 9 52 25 pm" src="https://github.com/user-attachments/assets/fad26c13-78c8-4d07-94f0-d5d529bc5082">
+<img width="1470" alt="Title" src="https://github.com/user-attachments/assets/3002abe4-f799-45b3-a56b-80a8faea21ab">
 
 ### Game Map
 
-<img width="700" alt="Level 1 tilemap" src="https://github.com/user-attachments/assets/79edeeb4-a040-439e-a7d6-2f985305d7fe">
+<img width="700" alt="Level 1 tilemap" src="https://github.com/user-attachments/assets/e997cb38-0773-4c9e-b3be-c984d6b1f183">
 
 
 ### Errors that occured
 
 Character showing up in different locations 
 
-<img width="1463" alt="Screenshot 2024-10-25 at 12 10 59 pm" src="https://github.com/user-attachments/assets/8d400d8e-969c-43d3-9c69-0ba9a9dcc545">
+<img width="1463" alt="Player in multiple locations" src="https://github.com/user-attachments/assets/53d9ce76-1676-4fe7-b073-584ef3967e85">
 
 Level map changing when overlapping objectives
 
-<img width="1470" alt="Screenshot 2024-11-03 at 3 35 24 pm" src="https://github.com/user-attachments/assets/654686da-cc2f-4eae-8c20-fab848dd3fb4">
+<img width="1470" alt="Player going though walls" src="https://github.com/user-attachments/assets/139131c6-1580-460f-8665-7f9ec126959b">
 
 Projectiles only firing in one directon
 
-<img width="1463" alt="Screenshot 2024-10-25 at 12 10 59 pm" src="https://github.com/user-attachments/assets/71eee8e6-4f12-4c5b-bded-51f8dbc9a69d">
+<img width="1464" alt="Projectile in one direction" src="https://github.com/user-attachments/assets/138c44a9-acfe-4966-a741-3e0061ed80d0">
+<img width="1466" alt="Projectile up" src="https://github.com/user-attachments/assets/c3c45136-5f56-47ab-b5eb-ec765abce59f">
 
 ## Setup
 This project is accessible in two ways.
