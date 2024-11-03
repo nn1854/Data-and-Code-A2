@@ -49,6 +49,10 @@ Character showing uop in different locations
 
 <img width="1463" alt="Screenshot 2024-10-25 at 12 10 59 pm" src="https://github.com/user-attachments/assets/8d400d8e-969c-43d3-9c69-0ba9a9dcc545">
 
+Level map changing when overlapping objectives
+
+<img width="1470" alt="Screenshot 2024-11-03 at 3 35 24 pm" src="https://github.com/user-attachments/assets/654686da-cc2f-4eae-8c20-fab848dd3fb4">
+
 Projectiles only firing in one directon
 
 <img width="1463" alt="Screenshot 2024-10-25 at 12 10 59 pm" src="https://github.com/user-attachments/assets/71eee8e6-4f12-4c5b-bded-51f8dbc9a69d">
