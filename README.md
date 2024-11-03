@@ -75,7 +75,7 @@ Second Way (opening via Microsoft Makecode Arcade)
 
 When the game first starts the player is introduced to the first character then are placed in the first level.
 
-_Game Start Code_
+> _Game Start Code_
 
 `@namespace
 class SpriteKind:
@@ -105,7 +105,7 @@ startLevel()`
 
 Players move the character by pressing (up, down, left, right) or (W,A,S,D) 
 
-_Code Example (Movement)_ 
+> _Code Example (Movement)_ 
 
 `def on_up_pressed():
     animation.run_image_animation(mySprite, assets.animation("""
@@ -115,7 +115,7 @@ controller.up.on_event(ControllerButtonEvent.PRESSED, on_up_pressed)`
 
 When players navigate the maze there come across different objects (chests, characters). When the player comes across these objects a brief message will appear and the score will go up by one. 
 
-_Code Example (Overlapping)_ 
+> _Code Example (Overlapping)_ 
 
 `def on_overlap_tile5(sprite6, location6):
     info.change_score_by(1)
@@ -129,7 +129,7 @@ scene.on_overlap_tile(SpriteKind.player,
     """),
     on_overlap_tile5)`
     
-_(Overlapping Monster for minigame)_
+> _(Overlapping Monster for minigame)_
 
 ~def on_overlap_tile10(sprite3, location3):
     game.show_long_text("You can't pass until you defeat the monsters",
@@ -144,7 +144,7 @@ scene.on_overlap_tile(SpriteKind.player,
     """),
     on_overlap_tile10)`
 
-_Code Example (Level Design)_
+> _Code Example (Level Design)_
 
 `def createLevel():
     if level == 1:
@@ -167,7 +167,7 @@ _Code Example (Level Design)_
 
 When all artefacts are found the player will make their way to a portal to enter the next level of the game. This level the player fires projectiles (A button) at enemies before the countdown ends to win.
 
-_Code Example (Projectiles)_ 
+> _Code Example (Projectiles)_ 
 
 `def on_a_pressed():
     global projectile2
@@ -196,8 +196,7 @@ _Code Example (Projectiles)_
             0)
 controller.A.on_event(ControllerButtonEvent.PRESSED, on_a_pressed)
 def on_countdown_end():
-    game.game_over(False)
-info.on_countdown_end(on_countdown_end)`
+    game.game_over(False)`
 
 ## Project Status
 Project is: _in progress_
