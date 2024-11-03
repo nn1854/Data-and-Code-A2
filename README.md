@@ -44,7 +44,7 @@ The game so far consists of two levels. The first level showcases a maze where t
 
 ### Errors that occured
 
-Character showing uop in different locations 
+Character showing up in different locations 
 
 <img width="1463" alt="Screenshot 2024-10-25 at 12 10 59 pm" src="https://github.com/user-attachments/assets/8d400d8e-969c-43d3-9c69-0ba9a9dcc545">
 
@@ -128,6 +128,42 @@ scene.on_overlap_tile(SpriteKind.player,
         Red Chest
     """),
     on_overlap_tile5)`
+    
+_(Overlapping Monster for minigame)_
+
+~def on_overlap_tile10(sprite3, location3):
+    game.show_long_text("You can't pass until you defeat the monsters",
+        DialogLayout.BOTTOM)
+    tiles.set_tile_at(location3, assets.tile("""
+        Monster 2
+    """))
+    clearLevel()
+scene.on_overlap_tile(SpriteKind.player,
+    assets.tile("""
+        Monster
+    """),
+    on_overlap_tile10)`
+
+_Code Example (Level Design)_
+
+`def createLevel():
+    if level == 1:
+        tiles.set_current_tilemap(tilemap("""
+            Level 1
+        """))
+    elif level == 2:
+        game.show_long_text("Goodluck hero, we are all counting on you",
+            DialogLayout.CENTER)
+        level2()
+    else:
+        tiles.set_current_tilemap(tilemap("""
+            Level 1
+        """))
+        scene.set_background_color(7)
+        info.stop_countdown()
+    controller.move_sprite(mySprite)
+    tiles.place_on_random_tile(mySprite, sprites.castle.tile_path5)
+    scene.camera_follow_sprite(mySprite)`
 
 When all artefacts are found the player will make their way to a portal to enter the next level of the game. This level the player fires projectiles (A button) at enemies before the countdown ends to win.
 
