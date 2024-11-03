@@ -206,7 +206,8 @@ Project is: _in progress_
 
 Room for improvement:
 - Allowing projectiles to fire in different directions depending on where the character is pointing at
-- Player character continuosuly moving rather than being frozen when moving character
+- Player character continuosly moving rather than being frozen when moving character
+- After minigame player returns to same spot rather than the start of the level
 
 To do:
 - Allowing enemies to be taken down by projectiles
