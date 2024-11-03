@@ -1,9 +1,8 @@
-# A Heroes Journey
-52685 Working with Data and Code
+# 52685 Working with Data and Code
 
-Assessment 2 Final Project
+### Assessment 2 Final Project - Video Game
 
-Game Link [_A Heroes Journey_](https://makecode.com/_8p6FyJT9999g)
+#### A Heroes Journey
 
 > Explainer Video [_here_](https://www.example.com)
 
@@ -64,8 +63,8 @@ Projectiles only firing in one directon
 This project is accessible in two ways.
 
 First Way (using URl)
-1. Open Microsoft MakecodeArcade and create an account if you don't have one
-2. Copy this URL 
+1. Click on this URL https://makecode.com/_8p6FyJT9999g or open it in a new tab
+2. The game should now be accessible 
 
 Second Way (opening via Microsoft Makecode Arcade)
 1. Open Microsoft MakecodeArcade and create an account if you don't have one
@@ -73,16 +72,7 @@ Second Way (opening via Microsoft Makecode Arcade)
 4. Navigate to 'Import Files' and import the image
 5. Click 'Go ahead!' and the game should be accessible
 
-[First Iteration](https://arcade.makecode.com/S87170-49744-88411-08192)
-
-
-[Final Version]
-
-
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
-
-Proceed to describe how to install / setup one's local environment / get started with the project.
-
+First iteration of game [_here_](https://arcade.makecode.com/S87170-49744-88411-08192)
 
 ## Usage
 When the game first starts the player is introduced to the first character then are placed in the first level. 
