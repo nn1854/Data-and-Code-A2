@@ -44,6 +44,8 @@ The game so far consists of two levels. The first level showcases a maze where t
 
 ### Game Map
 
+<img width="700" alt="Level 1 tilemap" src="https://github.com/user-attachments/assets/79edeeb4-a040-439e-a7d6-2f985305d7fe">
+
 
 ### Errors that occured
 
