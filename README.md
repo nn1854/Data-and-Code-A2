@@ -63,14 +63,13 @@ Projectiles only firing in one directon
 ## Setup
 This project is accessible in two ways.
 
-First Way (opening via links)
-- Click on the hyperlinks which will open the game on this page.
+First Way (using URl)
+1. Open Microsoft MakecodeArcade and create an account if you don't have one
+2. Copy this URL 
 
 Second Way (opening via Microsoft Makecode Arcade)
 1. Open Microsoft MakecodeArcade and create an account if you don't have one
-2. Download this image
-
-   (https://github.com/user-attachments/assets/252435ee-c131-49b7-a5ed-e8e85905631e)
+2. Download this [image](https://github.com/user-attachments/assets/252435ee-c131-49b7-a5ed-e8e85905631e)
 4. Navigate to 'Import Files' and import the image
 5. Click 'Go ahead!' and the game should be accessible
 
