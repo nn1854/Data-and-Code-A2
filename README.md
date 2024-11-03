@@ -47,11 +47,11 @@ List the ready features here:
 
 Character showing uop in different locations 
 
-<img width="1470" alt="Screenshot 2024-10-25 at 12 10 59 pm" src="https://github.com/user-attachments/assets/d96d2d52-50c3-49a6-920c-c4ac5ab309bb">
+<img width="1463" alt="Screenshot 2024-10-25 at 12 10 59 pm" src="https://github.com/user-attachments/assets/8d400d8e-969c-43d3-9c69-0ba9a9dcc545">
 
 Projectiles only firing in one directon
 
-<img width="1470" alt="Screenshot 2024-11-01 at 9 41 18 pm" src="https://github.com/user-attachments/assets/71d134f7-5b8b-4e9a-80e6-8b2a30614819">
+<img width="1463" alt="Screenshot 2024-10-25 at 12 10 59 pm" src="https://github.com/user-attachments/assets/71eee8e6-4f12-4c5b-bded-51f8dbc9a69d">
 
 ## Setup
 [_A Heroes Journey_](https://makecode.com/_8p6FyJT9999g)
