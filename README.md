@@ -27,7 +27,7 @@ The project I have undertaken for A2 is creating a video game on Microsoft MakeC
 The game so far consists of two levels. The first level showcases a maze where the player goes around and finds objects, the second level consists of monsters where the player has to take them down. 
 
 ## Technologies Used
-- Microsoft MakeCode Arcade
+- Microsoft MakeCode Python
 
 ## Features
 - Retro style arcade game
