@@ -72,7 +72,37 @@ Second Way (opening via Microsoft Makecode Arcade)
 > First iteration of game [_here_](https://arcade.makecode.com/S87170-49744-88411-08192)
 
 ## Usage
-When the game first starts the player is introduced to the first character then are placed in the first level. 
+
+When the game first starts the player is introduced to the first character then are placed in the first level.
+
+_Game Start Code_
+
+`@namespace
+class SpriteKind:
+    NPC = SpriteKind.create()
+    Warrior = SpriteKind.create()
+projectile2: Sprite = None
+mySprite: Sprite = None
+Wizard: Sprite = None
+level = 0
+game.splash("A Heroes Journey")
+level = 1
+Wizard = sprites.create(assets.image("""
+    Wizard
+"""), SpriteKind.NPC)
+game.show_long_text("Good Morning, Sorry to disturb you.", DialogLayout.BOTTOM)
+game.show_long_text("My name is Morley and I am a what you'd call a wizard of sorts.",
+    DialogLayout.BOTTOM)
+game.show_long_text("Lucky I found you, I am in need of your urgent assistance.",
+    DialogLayout.BOTTOM)
+game.show_long_text("There is are monsters terrorising the kingdom and I need you to slay them. ",
+    DialogLayout.BOTTOM)
+game.show_long_text("You need to find 6 artefacts scattered across the forest then find the blue portal. ",
+    DialogLayout.BOTTOM)
+game.show_long_text("Good Luck Hero, We are counting on you!!",
+    DialogLayout.BOTTOM)
+startLevel()`
+
 Players move the character by pressing (up, down, left, right) or (W,A,S,D) 
 
 _Code Example (Movement)_ 
