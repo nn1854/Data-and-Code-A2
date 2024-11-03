@@ -3,7 +3,10 @@
 
 Assessment 2 Final Project
 
+Game Link [_A Heroes Journey_](https://makecode.com/_8p6FyJT9999g)
+
 > Explainer Video [_here_](https://www.example.com)
+
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -58,7 +61,23 @@ Projectiles only firing in one directon
 <img width="1463" alt="Screenshot 2024-10-25 at 12 10 59 pm" src="https://github.com/user-attachments/assets/71eee8e6-4f12-4c5b-bded-51f8dbc9a69d">
 
 ## Setup
-[_A Heroes Journey_](https://makecode.com/_8p6FyJT9999g)
+This project is accessible in two ways.
+
+First Way (opening via links)
+- Click on the hyperlinks which will open the game on this page.
+
+Second Way (opening via Microsoft Makecode Arcade)
+1. Open Microsoft MakecodeArcade and create an account if you don't have one
+2. Download this image
+
+   (https://github.com/user-attachments/assets/252435ee-c131-49b7-a5ed-e8e85905631e)
+4. Navigate to 'Import Files' and import the image
+5. Click 'Go ahead!' and the game should be accessible
+
+[First Iteration](https://arcade.makecode.com/S87170-49744-88411-08192)
+
+
+[Final Version]
 
 
 What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
@@ -128,32 +147,25 @@ def on_countdown_end():
     game.game_over(False)
 info.on_countdown_end(on_countdown_end)`
 
-
-
 ## Project Status
 Project is: _in progress_
-
-
-
 
 ## Room for Improvement
 Include areas you believe need improvement / could be improved. Also add TODOs for future development.
 
 Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
+- Allowing projectiles to fire in different directions depending on where the character is pointing at
+- 
 
 To do:
-- Feature to be added 1
-- Feature to be added 2
+- Allowing enemies to be taken down by projectiles
+- Adding music and sound effects to the game
 
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
-
+- This project was inspired by games (Pokemon, The Legend of Zelda), Guides ([80's Rockstar Maze](https://arcade.makecode.com/--skillmap#rockstar))
+- This project was based on [Tutorial 5 Computer History and Introduction to Microsoft Makdecode Arcade](https://canvas.uts.edu.au/courses/33108/files/8081046?module_item_id=2021301).
 
 ## Contact
 Created by Nathan Ngo (13777406)
