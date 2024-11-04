@@ -205,6 +205,7 @@ def on_countdown_end():
     game.game_over(False)`
 
 > _Code Example (Sprite and Enemey)_
+
 `def startLevel():
     global mySprite, monster
     sprites.destroy(Wizard)
