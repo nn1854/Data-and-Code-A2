@@ -2,7 +2,7 @@
 
 ### Assessment 2 Final Project - A Heroes Journey
 
-> Explainer Video [_here_](https://www.example.com)
+> Explainer Video [_here_](https://kaltura.uts.edu.au/media/A2+Explainer+Video/1_9s45zfr8)
 
 ## Table of Contents
 * [General Info](#general-information)
