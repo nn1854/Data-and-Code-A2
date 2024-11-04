@@ -242,6 +242,7 @@ To do:
 - Allowing enemies to be taken down by projectiles
 - Adding music and sound effects to the game
 - Adding more levels to the game
+- Player interrupted when monster catches player 
 
 ## Acknowledgements
 Give credit here.
