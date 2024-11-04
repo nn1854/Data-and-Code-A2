@@ -137,7 +137,7 @@ scene.on_overlap_tile(SpriteKind.player,
     
 > _(Overlapping Monster for minigame)_
 
-~def on_overlap_tile10(sprite3, location3):
+`def on_overlap_tile10(sprite3, location3):
     game.show_long_text("You can't pass until you defeat the monsters",
         DialogLayout.BOTTOM)
     tiles.set_tile_at(location3, assets.tile("""
@@ -203,6 +203,29 @@ When all artefacts are found the player will make their way to a portal to enter
 controller.A.on_event(ControllerButtonEvent.PRESSED, on_a_pressed)
 def on_countdown_end():
     game.game_over(False)`
+
+> _Code Example (Sprite and Enemey)_
+`def startLevel():
+    global mySprite, monster
+    sprites.destroy(Wizard)
+    scene.set_background_color(7)
+    tiles.set_current_tilemap(tilemap("""
+        Level 1
+    """))
+    mySprite = sprites.create(assets.image("""
+        Hero
+    """), SpriteKind.player)
+    controller.move_sprite(mySprite)
+    tiles.place_on_random_tile(mySprite, sprites.castle.tile_path5)
+    scene.camera_follow_sprite(mySprite)
+    monster = sprites.create(assets.image("""
+        Hero
+    """), SpriteKind.enemy)
+    tiles.place_on_random_tile(monster, sprites.castle.tile_grass3)
+    monster.set_velocity(50, 50)
+    monster.set_bounce_on_wall(True)
+    monster.follow(mySprite, 75)
+    createLevel()`
 
 ## Project Status
 Project is: _in progress_
