@@ -4,9 +4,6 @@
 
 > Explainer Video [_here_](https://www.example.com)
 
-> Reflection [_here_](https://www.example.com)
-
-
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
