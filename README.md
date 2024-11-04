@@ -71,7 +71,7 @@ First Way (using URL)
 
 Second Way (opening via Microsoft Makecode Arcade)
 1. Open Microsoft MakecodeArcade and create an account if you don't have one
-2. Download this [image](https://github.com/user-attachments/assets/252435ee-c131-49b7-a5ed-e8e85905631e)
+2. Download this [image](https://github.com/user-attachments/assets/037656b8-eca7-45a4-9c72-ed7e6ecad21e)
 4. Navigate to 'Import Files' and import the image
 5. Click 'Go ahead!' and the game should be accessible
 
