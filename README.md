@@ -66,7 +66,7 @@ Projectiles only firing in one directon
 This project is accessible in two ways.
 
 First Way (using URL)
-1. Click on this URL https://makecode.com/_8p6FyJT9999g or open it in a new tab
+1. Click on this URL https://makecode.com/_CwMgExhFv0hA or open it in a new tab
 2. The game should now be accessible 
 
 Second Way (opening via Microsoft Makecode Arcade)
