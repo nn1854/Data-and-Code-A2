@@ -34,7 +34,8 @@ The game so far consists of two levels. The first level showcases a maze where t
 - 2 different levels (level 2 in progress)
 - Points system
 - Countdown timer
-- Player controls 
+- Player controls
+- Enemy chaser
 
 ## Screenshots
 
