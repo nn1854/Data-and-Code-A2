@@ -218,6 +218,7 @@ To do:
 - Allowing enemies to be taken down by projectiles
 - Adding music and sound effects to the game
 - Adding an enemy to chase the player increasing difficulty
+- Adding more levels to the game
 
 ## Acknowledgements
 Give credit here.
