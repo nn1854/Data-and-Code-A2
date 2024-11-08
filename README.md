@@ -11,7 +11,6 @@
 * [Screenshots](#screenshots)
 * [Setup](#setup)
 * [Usage](#usage)
-* [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
@@ -225,9 +224,6 @@ def on_countdown_end():
     monster.set_bounce_on_wall(True)
     monster.follow(mySprite, 75)
     createLevel()`
-
-## Project Status
-Project is: _in progress_
 
 ## Room for Improvement
 
